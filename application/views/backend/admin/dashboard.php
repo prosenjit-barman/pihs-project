@@ -20,7 +20,7 @@
             </div>
         </a>
     </div>
-
+<!-- 
     <div class="col-sm-3">
         <a href="<?php echo site_url('admin/nurse'); ?>">
             <div class="tile-stats tile-white-aqua">
@@ -57,7 +57,7 @@
                 <h3><?php echo get_phrase('payment') ?></h3>
             </div>
         </a>
-    </div>
+    </div> -->
 </div>
 
 <br />

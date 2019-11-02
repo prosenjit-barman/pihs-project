@@ -100,22 +100,6 @@
                 </div>
             </div>
 
-            <?php $recaptcha = json_decode($this->frontend_model->get_frontend_settings('recaptcha')); ?>
-            <div class="form-group">
-                <label for="field-1" class="col-sm-3 control-label">
-                   Recaptcha <?php echo get_phrase('settings');?>
-                </label>
-                <div class="col-sm-6">
-                    <input type="text" class="form-control" name="site_key"
-                           value="<?php echo $recaptcha[0]->site_key;?>">
-                    <span class="description">Recaptcha Site Key</span>
-                    <br>
-                    <input type="text" class="form-control" name="secret_key"
-                           value="<?php echo $recaptcha[0]->secret_key;?>">
-                    <span class="description">Recaptcha Secret Key</span>
-                </div>
-            </div>
-
             <div class="form-group">
                 <label for="field-1" class="col-sm-3 control-label"></label>
                 <div class="col-sm-2">

@@ -109,7 +109,7 @@
             </a>
         </li>
 
-        <li class="<?php if ($page_name == 'show_payment_history'   || $page_name == 'show_bed_allotment'
+       <!--  <li class="<?php if ($page_name == 'show_payment_history'   || $page_name == 'show_bed_allotment'
                             || $page_name == 'show_blood_bank')
                         echo 'opened active';?> ">
             <a href="#">
@@ -165,7 +165,7 @@
                 <i class="entypo-doc-text-inv"></i>
                 <span><?php echo get_phrase('noticeboard'); ?></span>
             </a>
-        </li>
+        </li> -->
 
         <!-- SETTINGS -->
         <li class="<?php if ($page_name == 'system_settings' || $page_name == 'manage_language' ||

@@ -12,6 +12,7 @@
     <meta name="description" content="Creativeitem" />
     <meta name="author" content="Creativeitem" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <link name="favicon" type="image/x-icon" href="<?php echo base_url().'uploads/favicon.png' ?>" rel="shortcut icon" />
     <title></title>
 
@@ -36,14 +37,6 @@
         <section class="gray-bg height-100vh d-flex align-items-center page-section-ptb ">
             <div class="container">
                 <div class="row no-gutters justify-content-center">
-                    <div class="col-lg-4 col-md-6 login-fancy-bg bg-overlay-black-0" style="background: url('<?php echo base_url('assets/login_page/img/bg.jpg'); ?>');">
-                        <div class="login-fancy pos-r d-flex">
-                            <div class="text-center w-100 align-self-center">
-                                <img src="<?php echo base_url('assets/login_page/img/bg.png');?>" height="40" />
-                                <h2 class="text-white mb-20"><?php echo $this->db->get_where('settings', array('type' => 'system_name'))->row()->description; ?></h2>
-                            </div>
-                        </div>
-                    </div>
                     <div class="col-lg-4 col-md-6 white-bg">
                         <div class="login-fancy pb-40 clearfix" id = "login_area">
                             <h3 class="mb-30"><?php echo get_phrase('login'); ?></h3>
