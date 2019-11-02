@@ -170,6 +170,10 @@
                         <textarea class="form-control no-resize" rows="5" name="message"
                                   placeholder="<?php echo get_phrase('your_message_to_the_doctor');?>"></textarea>
                     </div>
+
+                    <div class="form-group">
+                        <div class="g-recaptcha" data-sitekey="<?php echo $recaptcha[0]->site_key;?>"></div>
+                    </div>
                     <button type="submit" class="btn btn-styled btn-base-1"
                             style="cursor: pointer;">
                         <i class="fa fa-calendar mr-1"></i> <?php echo get_phrase('book_now');?>
