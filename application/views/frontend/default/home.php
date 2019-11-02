@@ -39,45 +39,6 @@
     </div>
 </section>
 
-<section class="home-top-widgets">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="home-widget widget-1">
-                    <i class="fa fa-phone"></i>
-                    <h4><?php echo get_phrase('emergency_contact');?></h4>
-                    <h3><?php echo $this->frontend_model->get_frontend_settings('emergency_contact');?></h3>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="home-widget widget-2">
-                    <i class="fa fa-calendar"></i>
-                    <h4><?php echo get_phrase('doctor_appointment');?></h4>
-                    <a href="<?php echo site_url('home/appointment');?>" 
-                        class="btn">
-                        <?php echo get_phrase('book_an_appointment');?>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="home-widget widget-3">
-                    <i class="fa fa-clock-o"></i>
-                    <h4><?php echo get_phrase('opening_hours');?></h4>
-                    <?php $open = json_decode($opening_hours);?>
-                    <ul>
-                        <li class="clearfix"><?php echo get_phrase('monday');?> - <?php echo get_phrase('friday');?> 
-                            <span class="float-right"><?php echo $open[0]->monday_friday;?></span></li>
-                        <li class="clearfix"><?php echo get_phrase('saturday');?> 
-                            <span class="float-right"><?php echo $open[0]->saturday;?></span></li>
-                        <li class="clearfix"><?php echo get_phrase('sunday');?> 
-                            <span class="float-right"><?php echo $open[0]->sunday;?></span></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 
 <section class="slice sct-color-2 pb-0">
 <?php $welcome = json_decode($welcome_content);?>
@@ -92,7 +53,7 @@
             <div class="col col-md-6 col-sm-12 col-12">
                 <div class="px-3 py-3 text-center text-lg-left">
                     <h3 class="heading heading-3 strong-500">
-                        <?php echo $welcome[0]->title;?>
+                        Welcome To SDP Two Project By Team PIHS
                     </h3>
                     <p class="mt-4">
                         <?php echo $welcome[0]->description;?>
@@ -182,7 +143,6 @@
         
     </div>
 </section>
-
 
 <section class="slice sct-color-1 relative">
     <div class="container">
@@ -283,24 +243,28 @@
     </div>
 </section>
 
-<section class="slice sct-color-2 b-xs-top b-xs-bottom">
+<section class="home-top-widgets">
     <div class="container">
-        <div class="text-center">
-            <div class="section-title section-title--style-1 text-center mb-4">
-                <h3 class="section-title-inner text-normal">
-                    <span><?php echo get_phrase('get_in_touch_with_our_professionals');?></span>
-                </h3>
-                <span class="section-title-delimiter clearfix d-none"></span>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="home-widget widget-1">
+                    <i class="fa fa-phone"></i>
+                    <h4><?php echo get_phrase('emergency_contact');?></h4>
+                    <h3><?php echo $this->frontend_model->get_frontend_settings('emergency_contact');?></h3>
+                </div>
             </div>
-
-            <span class="clearfix"></span>
-
-            <div class="mt-5">
-                <a href="<?php echo site_url('home/appointment');?>" 
-                    class="btn btn-styled btn-lg btn-base-1">
-                    <?php echo get_phrase('make_an_appointment');?>
-                </a>
+            <div class="col-lg-6">
+                <div class="home-widget widget-2">
+                    <i class="fa fa-calendar"></i>
+                    <h4><?php echo get_phrase('doctor_appointment');?></h4>
+                    <a href="<?php echo site_url('home/appointment');?>" 
+                        class="btn">
+                        <?php echo get_phrase('book_an_appointment');?>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
+

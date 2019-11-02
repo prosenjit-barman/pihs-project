@@ -74,49 +74,9 @@
     <div class="footer-bottom">
         <div class="container">
             <div class="row row-cols-xs-spaced flex flex-items-xs-middle">
-                <div class="col col-sm-7 col-xs-12">
+                <div class="col col-sm-7 col-xs-12 text-center">
                     <div class="copyright text-xs-center text-sm-left">
                         <?php echo $this->frontend_model->get_frontend_settings('copyright_text');?>
-                    </div>
-                </div>
-
-                <?php $social = json_decode($this->frontend_model->get_frontend_settings('social_links'));?>
-                <div class="col col-sm-5 col-xs-12">
-                    <div class="text-xs-center text-sm-right">
-                        <ul class="social-media social-media--style-1-v4">
-                            <?php if ($social[0]->facebook != '') { ?>
-                                <li>
-                                    <a href="<?php echo $social[0]->facebook;?>"
-                                       target="_blank">
-                                        <i class="ion ion-social-facebook"></i>
-                                    </a>
-                                </li>
-                            <?php } ?>
-                            <?php if ($social[0]->twitter != '') { ?>
-                                <li>
-                                    <a href="<?php echo $social[0]->twitter;?>"
-                                       target="_blank">
-                                        <i class="ion ion-social-twitter"></i>
-                                    </a>
-                                </li>
-                            <?php } ?>
-                            <?php if ($social[0]->google_plus != '') { ?>
-                                <li>
-                                    <a href="<?php echo $social[0]->google_plus;?>"
-                                       target="_blank">
-                                        <i class="ion ion-social-googleplus"></i>
-                                    </a>
-                                </li>
-                            <?php } ?>
-                            <?php if ($social[0]->youtube != '') { ?>
-                                <li>
-                                    <a href="<?php echo $social[0]->youtube;?>"
-                                       target="_blank">
-                                        <i class="ion ion-social-youtube"></i>
-                                    </a>
-                                </li>
-                            <?php } ?>
-                        </ul>
                     </div>
                 </div>
             </div>
