@@ -64,7 +64,7 @@
         </div>
     </div>
 </section>
-
+<!-- 
 <?php $service_section_data = json_decode($service_section);?>
 <section class="slice slice--arrow bg-base-1">
     <div class="sct-inner container">
@@ -79,7 +79,7 @@
         <?php echo $service_section_data[0]->description;?>
         </div>
     </div>
-</section>
+</section> -->
 
 <section class="slice-xl sct-color-1 b-xs-bottom">
     <div class="container">

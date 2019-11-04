@@ -65,14 +65,14 @@ p{
     color: #ffffff;
 }
 .department-sidebar {
-    background: #0087be;
+    background: #3ad86a;
     color: #fff;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 .department-sidebar .categories li a {
-    color: #bad5e0;
+    color: #3ad86a;
     padding: 13px 0;
     position: relative;
     padding-left: 15px;
@@ -111,7 +111,7 @@ p{
     background: #177196 !important;
 }
 .appointment-cta {
-    background: #0087be;
+    background: #3ad86a;
     border: 0;
 }
 
@@ -146,7 +146,7 @@ p{
 .department-price-list ul li .float-right {
     font-weight: 700;
     font-size: 14px;
-    background: #339fcb;
+    background: #3ad86a;
     color: #fff;
     padding: 7px 10px;
 }
@@ -166,7 +166,7 @@ p{
 }
 .doctor-sidebar .categories li.active a,
 .doctor-sidebar .categories li a:hover {
-    color: #0087be;
+    color: #3ad86a;
 }
 
 .doctor-sidebar .section-title-inner {
@@ -317,11 +317,11 @@ section.home-top-widgets .col-lg-4:first-child {
 }
 
 .home-widget.widget-2 {
-    background: #289bca;
+    background: #3ad86a;
 }
 
 .home-widget.widget-1 {
-    background: #46acd6;
+    background: #3ad86a;
 }
 .home-widget i {
     font-size: 35px;
@@ -373,7 +373,7 @@ section.home-top-widgets .col-lg-4:first-child {
 
 .home-widget a.btn:hover {
     color: #fff;
-    background: #0087be;
+    background: #3ad86a;
 }
 
 .patient-code .btn {
