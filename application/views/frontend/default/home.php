@@ -81,7 +81,7 @@
     </div>
 </section> -->
 
-<section class="slice-xl sct-color-1 b-xs-bottom">
+<!-- <section class="slice-xl sct-color-1 b-xs-bottom">
     <div class="container">
         <div class="row-wrapper">
             <div class="row">
@@ -108,7 +108,7 @@
         </div>
     </div>
 </section>
-
+ -->
 
 <section class="slice sct-color-1 relative b-xs-bottom department-section">
     <div class="container">
