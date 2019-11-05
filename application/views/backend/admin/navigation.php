@@ -86,7 +86,7 @@
                 <span><?php echo get_phrase('patient'); ?></span>
             </a>
         </li>
-
+<!-- 
         <li class="<?php if ($page_name == 'manage_nurse') echo 'active'; ?> ">
             <a href="<?php echo site_url('admin/nurse');?>">
                 <i class="fa fa-plus-square"></i>
@@ -108,7 +108,7 @@
                 <span><?php echo get_phrase('receptionist'); ?></span>
             </a>
         </li>
-
+ -->
        <!--  <li class="<?php if ($page_name == 'show_payment_history'   || $page_name == 'show_bed_allotment'
                             || $page_name == 'show_blood_bank')
                         echo 'opened active';?> ">
@@ -168,7 +168,7 @@
         </li> -->
 
         <!-- SETTINGS -->
-        <li class="<?php if ($page_name == 'system_settings' || $page_name == 'manage_language' ||
+<!--         <li class="<?php if ($page_name == 'system_settings' || $page_name == 'manage_language' ||
                             $page_name == 'sms_settings') echo 'opened active';?> ">
             <a href="#">
                 <i class="fa fa-wrench"></i>
@@ -215,7 +215,7 @@
                 <i class="fa fa-user"></i>
                 <span><?php echo get_phrase('account'); ?></span>
             </a>
-        </li>
+        </li> -->
 
 
 
